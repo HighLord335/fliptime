@@ -13,7 +13,8 @@
     display: grid;
     place-items: center;
     transition: all 1s;
-    height: 100vh;
+    height: 100vh;	
+	 justify-content:center;
   }
 
 
