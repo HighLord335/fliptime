@@ -1,20 +1,9 @@
 /* Get the bourbon mixin from http://bourbon.io */
 /* Reset */
-* { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  -webkit-scroll-behavior:smooth;
-    scroll-behavior: smooth;
-  }
-  body {
-    font-family: "Tahoma";
-    background: white;
-    display: grid;
-    place-items: center;
-    transition: all 1s;
-    height: 100vh;
-  }
+body .flip-clock-wrapper ul li a div div.inn, body .flip-clock-small-wrapper ul li a div div.inn { color: #CCCCCC; background-color: #333333; }
+body .flip-clock-dot, body .flip-clock-small-wrapper .flip-clock-dot { background: #323434; }
+body .flip-clock-wrapper .flip-clock-meridium a, body .flip-clock-small-wrapper .flip-clock-meridium a { color: #323434; }
+
 
 .flip-clock-wrapper * {
     -webkit-box-sizing: border-box;
