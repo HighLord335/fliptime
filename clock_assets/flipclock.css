@@ -724,3 +724,22 @@
   -moz-animation: hide 0.5s 0.3s linear both;
   animation: hide 0.5s 0.2s linear both; }
 
+@media screen and (max-width:450px) {
+  .flip-clock-wrapper ul {
+   
+  }
+
+  .flip-clock-wrapper ul li {
+    
+  }
+
+  .flip-clock-divider.minutes{
+    display:none;
+  }
+  .flip-clock-divider.minutes .flip-clock-label {
+    display:none; }
+  
+  .flip-clock-divider.seconds .flip-clock-label {
+    display:none;}
+}
+
